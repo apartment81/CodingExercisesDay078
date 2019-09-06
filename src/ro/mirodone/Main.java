@@ -12,6 +12,9 @@ public class Main {
 
         System.out.println(duplicateE.encode("din"));
 
+        DuplicateClever dc = new DuplicateClever();
+        System.out.println(dc.encode("(( @"));
+
 
     }
 }
